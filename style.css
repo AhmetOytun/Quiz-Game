@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(60, 116, 60);
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3rem;
+}
+#questionbody{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#choicebox{
+    text-align: center;
+    margin: 0.5rem;
+    border: 5px solid yellow;
+    background-color: yellowgreen;
+    width:  30rem;
+    height: 5rem;
+}
+#choicebox span{
+    font-size: 1.2rem;
+    display: block;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+#choicebox:hover{
+    border-color: blue;
+}
+#questionbox{
+    margin-bottom: 5rem;
+    border: 5px solid white;
+    height: 25rem;
+    width: 30rem;
+}
